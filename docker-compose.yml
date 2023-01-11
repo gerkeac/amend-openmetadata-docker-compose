@@ -24,7 +24,7 @@ services:
     expose:
       - 3306
     volumes:
-     - ./docker-volume/db:/var/lib/mysql
+      - ./docker-volume/db:/var/lib/mysql
     networks:
       - app_net
     healthcheck:
